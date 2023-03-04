@@ -4,6 +4,6 @@
     "name": "KafkaPlayground",
     "dockerComposeFile": "../docker-compose.yml",
     "service": "broker",
-    "workspaceFolder": ".",
+    "workspaceFolder": "workspace/KafkaPlayground",
     "shutdownAction": "stopCompose"
 }
