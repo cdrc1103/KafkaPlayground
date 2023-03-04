@@ -1,1 +1,1 @@
-# Testin MLOps Tools
+# Playing around with Kafka event streaming pipelines
