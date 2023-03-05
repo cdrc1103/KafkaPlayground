@@ -3,7 +3,7 @@
 {
     "name": "KafkaPlayground",
     "dockerComposeFile": "../docker-compose.yml",
-    "service": "broker",
+    "service": "python",
     "workspaceFolder": "workspace/KafkaPlayground",
     "shutdownAction": "stopCompose"
 }
