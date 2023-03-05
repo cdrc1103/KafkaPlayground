@@ -4,6 +4,9 @@
     "name": "KafkaPlayground",
     "dockerComposeFile": "../docker-compose.yml",
     "service": "dev",
-    "workspaceFolder": "workspace/KafkaPlayground",
-    "shutdownAction": "stopCompose"
+    "workspaceFolder": "workspace/app",
+    "shutdownAction": "stopCompose",
+    "features": {
+		"ghcr.io/devcontainers/features/git:1": {}
+	}
 }
