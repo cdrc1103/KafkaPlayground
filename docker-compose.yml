@@ -23,9 +23,10 @@ services:
       KAFKA_OFFSETS_TOPIC_REPLICATION_FACTOR: 1
       KAFKA_TRANSACTION_STATE_LOG_MIN_ISR: 1
       KAFKA_TRANSACTION_STATE_LOG_REPLICATION_FACTOR: 1
-    
-  python:
-    image: python:3.10-slim
-    container_name: python
+      
+  dev:
+    build: .
+    container_name: dev
     ports:
       - "8501:8501"
+    tty: true
